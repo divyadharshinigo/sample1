@@ -4,8 +4,9 @@ class alpha
 {
 public static void main(String args[]);
 char b;
-System.out.print("enter input");
 Scanner sc=new Scanner(System.in);
+System.out.print("enter input");
+
 b=sc.next();
 
 

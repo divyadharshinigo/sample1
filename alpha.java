@@ -11,7 +11,7 @@ System.out.print("enter input");
 b=sc.nextChar();
 
 
-if(b>=65 && b<=91 || b>=97&&b<=122 )
+if(Character.isalphabetic(b))
 {
 System.out.print("it is a alphabet");
 }

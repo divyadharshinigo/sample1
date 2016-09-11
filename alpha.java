@@ -8,7 +8,7 @@ char b;
 Scanner sc=new Scanner(System.in);
 System.out.print("enter input");
 
-b=sc.next();
+b=sc.nextLine();
 
 
 if(b>=65 && b<=91 || b>=97&&b<=122 )
